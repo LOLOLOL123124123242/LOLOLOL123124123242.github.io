@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-image: url('images_o/rock.jpg');
+  background-image: url('../images_o/rock.jpg');
   background-size: cover;
   background-position: center;
 }
