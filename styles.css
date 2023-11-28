@@ -1,18 +1,18 @@
-/* Resetting default styles for better cross-browser consistency */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* General styles */
+
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #a2a2a2;
+  background-color: #ffffff;
   line-height: 1.6;
   margin: 0;
   padding: 0;
-  background-image: url('../image/rock.jpg');
+  background-image: url('rock.jpg') !important;
   background-size: cover;
   background-position: center;
 }
@@ -49,7 +49,7 @@ main {
 }
 
 .projects {
-  background-color: #7d7d7d;
+  background-color: #fef3f3;
   padding: 20px;
   border-radius: 5px;
 }
@@ -58,7 +58,7 @@ main {
   margin-bottom: 20px;
 }
 
-/* Font Styles */
+
 h1, h2, h3 {
   font-family: 'Georgia', serif;
   font-weight: bold;
@@ -69,18 +69,20 @@ p {
   font-size: 16px;
 }
 
-/* Links and Buttons */
+
 a {
-  color: #333;
+  color: #ce0000;
   text-decoration: none;
   transition: color 0.3s ease;
+  background-color: green;
 }
 
 a:hover {
-  color: #555;
+  color: #c90000;
+
+  background-color: darkgreen;
 }
 
-/* Margins, Padding, Borders */
 .intro, .profile, .projects {
   margin: 20px 0;
   padding: 15px;
@@ -89,7 +91,7 @@ a:hover {
 }
 
 .social-media {
-  background-color: #8b8b8b;
+  background-color: #000000;
   padding: 20px;
   border-radius: 5px;
   margin-top: 20px;
@@ -110,19 +112,19 @@ a:hover {
   padding: 8px 16px;
   border: 1px solid #050505;
   border-radius: 5px;
-  text-decoration: royalblue;
+  text-decoration: rgb(0, 64, 255);
   color: #ff0000;
   transition: background-color 0.3s ease;
 }
 
 .social-links li a:hover {
-  background-color: #a32b2b;
+  background-color: rgb(255, 255, 255);
 }
 
 
 
 .audio-section {
-  background-color: #5e5e5e;
+  background-color: #ff0000;
   padding: 20px;
   border-radius: 5px;
   margin-top: 20px;
